@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="preview-ready-after-ms" content="4200" />
+  <title>TELOS NEXUS - Experiencias Digitais Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="assets/vendor/lucide/lucide.es"></script>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <div class="ambient-grid"></div>
+    <div class="architecture-lines"></div>
+    <div class="light-field" id="lightField"></div>
+
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="#home" aria-label="TELOS NEXUS">
+          <img src="assets/images/logo_telosnexus.png" alt="TELOS NEXUS" />
+        </a>
+
+        <nav class="nav-links" aria-label="Navegacao principal">
+          <a href="#home">Home</a>
+          <a href="#solucoes">Soluções</a>
+          <a href="#processo">Processo</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="btn btn-primary nav-cta" href="#contato">
+            <span class="btn-sheen"></span>
+            Solicitar um Orçamento
+          </a>
+          <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-controls="mobileMenu" aria-expanded="false">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile">
+      <a href="#home">Home <i data-lucide="arrow-right"></i></a>
+      <a href="#solucoes">Soluções <i data-lucide="arrow-right"></i></a>
+      <a href="#processo">Processo <i data-lucide="arrow-right"></i></a>
+      <a href="#portfolio">Portfólio <i data-lucide="arrow-right"></i></a>
+      <a href="#contato">Contato <i data-lucide="arrow-right"></i></a>
+      <a class="btn btn-primary mobile-cta" href="#contato">
+        <span class="btn-sheen"></span>
+        Solicitar um Orçamento
+      </a>
+    </nav>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-spotlight" id="heroSpotlight"></div>
+        <div class="hero-spotlight-core" id="heroSpotlightCore"></div>
+
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <div class="badge reveal" style="--delay: .06s">
+              <span class="badge-dot"></span>
+              Transformando negócios através da tecnologia
+            </div>
+
+            <h1 class="reveal" style="--delay: .16s">
+              Transformamos sua presença digital em <span class="headline-accent">autoridade.</span>
+            </h1>
+
+            <p class="subheadline reveal" style="--delay: .26s">
+              Desenvolvemos sites institucionais, landing pages e páginas de vendas que fortalecem sua marca, geram confiança e ajudam sua empresa a conquistar novas oportunidades.
+            </p>
+
+            <div class="hero-actions reveal" style="--delay: .36s">
+              <a class="btn btn-primary" href="#contato">
+                <span class="btn-sheen"></span>
+                Solicitar um Orçamento
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <a class="btn btn-secondary" href="#portfolio">
+                Ver Portfólio
+                <i data-lucide="external-link"></i>
+              </a>
+            </div>
+
+            <div class="trust-row reveal" style="--delay: .46s" aria-label="Diferenciais TELOS NEXUS">
+              <div class="trust-item">
+                <strong>01</strong>
+                <span>Estratégia digital antes do design.</span>
+              </div>
+              <div class="trust-item">
+                <strong>02</strong>
+                <span>Interfaces premium orientadas à conversão.</span>
+              </div>
+              <div class="trust-item">
+                <strong>03</strong>
+                <span>Presença moderna, clara e confiável.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="visual-stage reveal" style="--delay: .3s" aria-label="Composicao visual de projeto digital TELOS NEXUS">
+            <div class="stage-rail"></div>
+
+            <div class="laptop" data-depth="0.08">
+              <div class="screen-shell">
+                <div class="screen">
+                  <div class="project-ui">
+                    <div class="project-topbar">
+                      <div class="mini-brand">
+                        <span class="mini-mark"></span>
+                        Projeto Nexus
+                      </div>
+                      <div class="mini-nav" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+
+                    <div class="project-content">
+                      <div class="mock-hero">
+                        <div>
+                          <div class="mock-label"></div>
+                          <div class="mock-title" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="mock-cta"></div>
+                      </div>
+
+                      <div class="concept-stack">
+                        <div class="concept-chip primary">UI Premium</div>
+                        <div class="concept-chip">SEO Ready</div>
+                        <div class="concept-chip">Responsivo</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="laptop-base"></div>
+            </div>
+
+            <span class="stage-orb one" aria-hidden="true"></span>
+            <span class="stage-orb two" aria-hidden="true"></span>
+
+            <aside class="floating-card strategy" data-depth="0.16">
+              <div class="card-eyebrow">Design Estratégico <i data-lucide="sparkles"></i></div>
+            </aside>
+
+            <aside class="floating-card performance" data-depth="0.12">
+              <div class="card-eyebrow">Experiência Responsiva <i data-lucide="monitor-smartphone"></i></div>
+            </aside>
+          </div>
+        </div>
+
+        <div class="scroll-cue">Presença digital com direção, estética e performance</div>
+      </section>
+
+      <section class="approach-section" id="abordagem" aria-label="Nossa abordagem">
+        <div class="container approach-layout">
+          <div class="approach-copy reveal" style="--delay: .08s">
+            <div class="section-badge">Nossa abordagem</div>
+
+            <h2 class="approach-title">
+              <span class="title-line">Muito mais</span>
+              <span class="title-line">do que</span>
+              <span class="title-line">um site.</span>
+            </h2>
+
+            <div class="approach-text">
+              <p>Seu site é, muitas vezes, o primeiro contato entre sua empresa e um potencial cliente.</p>
+              <p>Mais do que uma página na internet, ele representa sua marca, transmite credibilidade e influencia diretamente a percepção sobre o seu negócio.</p>
+              <p>Na TELOS NEXUS desenvolvemos projetos que unem estratégia, design e tecnologia para criar experiências digitais que fortalecem sua empresa.</p>
+            </div>
+          </div>
+
+          <div class="presence-stage reveal" style="--delay: .18s" aria-label="Composição abstrata de presença digital">
+            <div class="presence-glow" data-approach-depth="0.05"></div>
+            <div class="presence-architecture" data-approach-depth="0.08"></div>
+
+            <div class="presence-core" data-approach-depth="0.12">
+              <span class="presence-ring"></span>
+              <span class="presence-ring"></span>
+              <span class="presence-ring"></span>
+              <span class="presence-pane"></span>
+              <span class="presence-pane secondary"></span>
+              <span class="presence-pane tertiary"></span>
+            </div>
+
+            <span class="presence-node one" aria-hidden="true"></span>
+            <span class="presence-node two" aria-hidden="true"></span>
+            <span class="presence-node three" aria-hidden="true"></span>
+            <span class="presence-word strategy" data-approach-depth="0.16">Estratégia</span>
+            <span class="presence-word design" data-approach-depth="0.14">Presença digital</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="solutions-section" id="solucoes" aria-label="Nossas Soluções">
+        <span class="solutions-deco one" data-solutions-depth="0.08" aria-hidden="true"></span>
+        <span class="solutions-deco two" data-solutions-depth="0.12" aria-hidden="true"></span>
+
+        <div class="container solutions-shell">
+          <div class="solutions-header reveal" style="--delay: .08s">
+            <div class="section-badge">Nossas Soluções</div>
+            <h2 class="solutions-title">Soluções para fortalecer sua presença digital</h2>
+            <p class="solutions-lede">Cada projeto é desenvolvido com estratégia, design e tecnologia para representar sua marca com autoridade e criar experiências digitais que geram resultados.</p>
+          </div>
+
+          <div class="solutions-grid">
+            <article class="solution-card reveal" style="--delay: .16s">
+              <div class="solution-icon" aria-hidden="true"><i data-lucide="building-2"></i></div>
+              <h3>Sites Institucionais</h3>
+              <p>Apresente sua empresa com profissionalismo, autoridade e credibilidade através de um site moderno, responsivo e alinhado ao posicionamento da sua marca.</p>
+              <span class="card-line" aria-hidden="true"></span>
+            </article>
+
+            <article class="solution-card reveal" style="--delay: .24s">
+              <div class="solution-icon" aria-hidden="true"><i data-lucide="mouse-pointer-click"></i></div>
+              <h3>Landing Pages</h3>
+              <p>Páginas estratégicas desenvolvidas para campanhas, lançamentos e geração de oportunidades com foco em conversão.</p>
+              <span class="card-line" aria-hidden="true"></span>
+            </article>
+
+            <article class="solution-card reveal" style="--delay: .32s">
+              <div class="solution-icon" aria-hidden="true"><i data-lucide="badge-check"></i></div>
+              <h3>Páginas de Vendas</h3>
+              <p>Estruturas desenvolvidas para comunicar valor, reduzir objeções e aumentar conversões de forma clara e persuasiva.</p>
+              <span class="card-line" aria-hidden="true"></span>
+            </article>
+
+            <article class="solution-card reveal" style="--delay: .4s">
+              <div class="solution-icon" aria-hidden="true"><i data-lucide="search-check"></i></div>
+              <h3>SEO Básico</h3>
+              <p>Seu projeto preparado com boas práticas para facilitar a indexação nos mecanismos de busca e melhorar sua presença online.</p>
+              <span class="card-line" aria-hidden="true"></span>
+            </article>
+          </div>
+
+          <div class="solutions-cta reveal" style="--delay: .48s">
+            <p>Conheça alguns dos projetos que desenvolvemos e veja como transformamos ideias em experiências digitais.</p>
+            <a class="btn btn-primary" href="#portfolio">
+              <span class="btn-sheen"></span>
+              Ver Portfólio
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section" id="processo" aria-label="Nosso Processo">
+        <span class="process-flow one" data-process-depth="0.08" aria-hidden="true"></span>
+        <span class="process-flow two" data-process-depth="0.12" aria-hidden="true"></span>
+
+        <div class="container process-shell">
+          <div class="process-header reveal" style="--delay: .08s">
+            <div class="section-badge">Nosso Processo</div>
+            <h2 class="process-title">Como desenvolvemos seu projeto</h2>
+            <p class="process-lede">Cada projeto segue um processo estruturado para garantir uma experiência organizada, transparente e alinhada aos objetivos do seu negócio.</p>
+          </div>
+
+          <div class="process-journey">
+            <article class="process-step reveal" style="--delay: .16s">
+              <span class="process-number">01</span>
+              <span class="process-dot" aria-hidden="true"></span>
+              <h3>Diagnóstico</h3>
+              <p>Entendemos seu negócio, seus objetivos, seu público e as necessidades do projeto para definir a melhor estratégia.</p>
+            </article>
+
+            <article class="process-step reveal" style="--delay: .24s">
+              <span class="process-number">02</span>
+              <span class="process-dot" aria-hidden="true"></span>
+              <h3>Estratégia</h3>
+              <p>Planejamos a arquitetura, a experiência do usuário, a estrutura do conteúdo e a direção visual para criar uma base sólida.</p>
+            </article>
+
+            <article class="process-step reveal" style="--delay: .32s">
+              <span class="process-number">03</span>
+              <span class="process-dot" aria-hidden="true"></span>
+              <h3>Desenvolvimento</h3>
+              <p>Transformamos o planejamento em uma experiência digital moderna, responsiva e alinhada à identidade da sua empresa.</p>
+            </article>
+
+            <article class="process-step reveal" style="--delay: .4s">
+              <span class="process-number">04</span>
+              <span class="process-dot" aria-hidden="true"></span>
+              <h3>Entrega</h3>
+              <p>Publicamos seu projeto, realizamos os ajustes finais e oferecemos suporte para garantir que tudo funcione perfeitamente.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="portfolio" aria-label="Portfólio">
+        <span class="portfolio-deco one" data-portfolio-depth="0.1" aria-hidden="true"></span>
+        <span class="portfolio-deco two" data-portfolio-depth="0.14" aria-hidden="true"></span>
+
+        <div class="container portfolio-shell">
+          <div class="portfolio-header reveal" style="--delay: .08s">
+            <div class="section-badge">Portfólio</div>
+            <h2 class="portfolio-title">Alguns projetos desenvolvidos</h2>
+            <p class="portfolio-lede">Conheça alguns dos projetos desenvolvidos pela TELOS NEXUS e veja como ajudamos empresas a fortalecer sua presença digital através de experiências modernas, estratégicas e profissionais.</p>
+          </div>
+
+          <div class="portfolio-showcase">
+            <article class="project-card featured reveal" style="--delay: .16s">
+              <div class="project-media">
+                <img src="assets/images/bhaskaraconsult-br-2026-06-27-02_12_34.png" alt="Projeto Bhaskara Consult" loading="lazy" decoding="async" />
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-kicker">Site Institucional</p>
+                  <h3 class="project-name">Bhaskara Consult</h3>
+                  <p class="project-note">Presença digital profissional para transmitir confiança, clareza e autoridade.</p>
+                </div>
+                <span class="project-action" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+              </div>
+            </article>
+
+            <article class="project-card side reveal" style="--delay: .24s">
+              <div class="project-media">
+                <img src="assets/images/davepradaadvogado-hbsgroup-br-2026-06-27-11_40_53.png" alt="Projeto Dave Prada Advogado" loading="lazy" decoding="async" />
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-kicker">Site Institucional</p>
+                  <h3 class="project-name">Dave Prada Advogado</h3>
+                  <p class="project-note">Experiência elegante para posicionamento jurídico com credibilidade.</p>
+                </div>
+                <span class="project-action" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+              </div>
+            </article>
+
+            <article class="project-card wide reveal" style="--delay: .32s">
+              <div class="project-media">
+                <img src="assets/images/despachantedoccerto-br-2026-06-27-02_18_22.png" alt="Projeto Doc Certo Despachante" loading="lazy" decoding="async" />
+              </div>
+              <div class="project-meta">
+                <div>
+                  <p class="project-kicker">Landing Page</p>
+                  <h3 class="project-name">Doc Certo</h3>
+                  <p class="project-note">Interface moderna e direta para gerar confiança e facilitar a conversão.</p>
+                </div>
+                <span class="project-action" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span>
+              </div>
+            </article>
+          </div>
+
+          <div class="portfolio-cta reveal" style="--delay: .4s">
+            <p>Conheça todos os projetos desenvolvidos pela TELOS NEXUS e descubra como podemos criar uma experiência digital única para sua empresa.</p>
+            <a class="btn btn-primary" href="#portfolio">
+              <span class="btn-sheen"></span>
+              Ver Portfólio Completo
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta-section" id="contato" aria-label="Vamos conversar">
+        <div class="final-cta-orbit" data-contact-depth="0.06" aria-hidden="true"></div>
+        <span class="final-cta-deco one" data-contact-depth="0.1" aria-hidden="true"></span>
+        <span class="final-cta-deco two" data-contact-depth="0.14" aria-hidden="true"></span>
+
+        <div class="container">
+          <div class="final-cta-shell reveal" style="--delay: .08s">
+            <div class="section-badge">Vamos conversar</div>
+            <h2 class="final-cta-title">Sua empresa merece uma presença digital à altura do seu potencial.</h2>
+            <p class="final-cta-text">Vamos construir um projeto que represente sua marca com profissionalismo, estratégia e qualidade.</p>
+
+            <div class="final-cta-actions">
+              <a class="btn btn-primary" href="#contato">
+                <span class="btn-sheen"></span>
+                Solicitar um Orçamento
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <a class="btn btn-secondary" href="#portfolio">
+                Ver Portfólio
+                <i data-lucide="external-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Rodapé">
+      <div class="container">
+        <div class="footer-grid reveal" style="--delay: .08s">
+          <div class="footer-brand">
+            <a href="#home" aria-label="TELOS NEXUS">
+              <img src="assets/images/logo_telosnexus.png" alt="TELOS NEXUS" />
+            </a>
+            <p>Desenvolvemos experiências digitais que fortalecem marcas através de estratégia, design e tecnologia.</p>
+          </div>
+
+          <nav aria-label="Links do rodapé">
+            <h2 class="footer-heading">Menu</h2>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#solucoes">Soluções</a></li>
+              <li><a href="#processo">Processo</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav>
+
+          <div>
+            <h2 class="footer-heading">Contato</h2>
+            <ul class="footer-contact">
+              <li><a href="#contato"><i data-lucide="message-circle"></i> WhatsApp</a></li>
+              <li><a href="#contato"><i data-lucide="instagram"></i> Instagram</a></li>
+              <li><a href="#contato"><i data-lucide="mail"></i> Email</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 TELOS NEXUS.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
